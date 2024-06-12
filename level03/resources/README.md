@@ -2,17 +2,13 @@
 
 In our home we find an executable file:
 ```
-level03@SnowCrash:~$ ls -la
-total 24
-<SNIP>
--rwsr-sr-x 1 flag03  level03 8627 Mar  5  2016 level03
+level03@SnowCrash:~$ ls
+level03
 level03@SnowCrash:~$ ./level03
 Exploit me
 level03@SnowCrash:~$
 ```
-It's important to notice that the executable has [SUID and SGID](https://www.redhat.com/sysadmin/suid-sgid-sticky-bit) permissions, meaning respectively that the file always executes as the user and the group owning the file.
-
-I transfer it to my session in order to analyze it:
+So I transfer it to my session and analyze it:
 ```
 $ scp -P 4242 level03@10.13.250.56:/home/user/level03/level03 ~/
 $ file level03

@@ -14,16 +14,14 @@ To connect via SSH to the virtual machine:
 
 # Flag00
 
-After some exploration, I discovered:
 ```
 level00@SnowCrash:~$ cd /usr/sbin
-level00@SnowCrash:/usr/sbin$ ls -la
-total 5784
+level00@SnowCrash:~$ ls
 <SNIP>
-----r--r--  1 flag00  flag00      15 Mar  5  2016 john
+john
 <SNIP>
 level00@SnowCrash:/usr/sbin$ cat john
-cdiiddwpgswtgt
+cdiiddwpgswtgt 
 ```
 Then thanks to [Dcode](https://www.dcode.fr/chiffre-rot) I coud be able to identify its encryption in ROT15 and decrypt it:
 ![password](./20240307223508.png)
