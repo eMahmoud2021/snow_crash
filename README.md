@@ -2,7 +2,7 @@
 Ce projet est une introduction à la sécurité informatique. Snow Crash vous fera découvrir la sécurité dans différents sous-domaines, avec une approche orientée développeur.
  Vous vous familiariserez avec plusieurs langages (ASM/perl/php...), développerez une certaine logique pour comprendre des programmes inconnus, et prendrez conscience des problèmes liés à de simples erreurs de programmation
 
- Énumération de base de Linux
+ ## Base de Linux
 C'est l'une des parties les plus importantes si vous envisagez de vous lancer dans les tests de pénétration. 
 Vous devez savoir exactement où regarder et quoi chercher. C'est ce que vous ferez dans les premiers niveaux de SnowCrash. Peu de niveaux nécessitent une énumération, mais pour un début, c'est bien. Et ne vous arrêtez pas à ce projet, essayez de lire des articles sur comment et quoi énumérer.
 
